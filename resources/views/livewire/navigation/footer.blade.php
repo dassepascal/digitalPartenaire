@@ -6,7 +6,7 @@ use Livewire\Volt\Component;
 new class() extends Component {};
 ?>
 
-<footer class="p-10 text-white bg-cyan-700 footer bg-red-500">
+<footer class="p-10 text-white bg-cyan-700 footer">
     <nav>
         <a href="{{ route('contact') }}" class="link link-hover">{{ __('Contact') }}</a>
         <a href="{{ route('blog.index') }}" class="link link-hover">{{ __('Blog') }}</a>
