@@ -24,7 +24,7 @@ new class extends Component {
     <x-card title="1: Pourquoi l'E-Commerce est-il un levier de croissance pour votre PME ?">
 
         <x-slot:figure>
-            <img src="{{ asset('storage/photos/e-commerce.jpg') }}" alt="image site e-commerce" />
+            <img src="{{ asset('storage/photos/e-commerce.webp') }}" alt="image site e-commerce" />
         </x-slot:figure>
 
     <ol>

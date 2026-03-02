@@ -22,7 +22,7 @@ new class extends Component {
 
 
         <x-slot:figure>
-            <img src="{{ asset('storage/photos/site-vitrine.jpeg') }}" />
+            <img src="{{ asset('storage/photos/fleuriste.jpg') }}"  alt="fleuriste"/>
         </x-slot:figure>
         <h3 class="text-1xl font-bold mb-4">Optimisation pour les moteurs de recherche (SEO).</h3>
         <p>L'amélioration du référencement (SEO) d'un site est essentielle pour augmenter la visibilité de votre PME. Un
@@ -64,7 +64,7 @@ new class extends Component {
         Cette PME spécialisée dans la création de bijoux artisanaux a élargi sa clientèle au-delà de sa région grâce à un site vitrine attractif, permettant des expéditions à l'international. <br>
 
         <span class="font-bold">Bijoux Artisanaux Élégance : plus de 3 fois plus de ventes.</span><br>
-        Cette PME spécialisée dans la création de bijoux artisanaux a élargi sa clientèle au-delà de sa région grâce à un site vitrine attractif, permettant des expéditions à l'international. 
+        Cette PME spécialisée dans la création de bijoux artisanaux a élargi sa clientèle au-delà de sa région grâce à un site vitrine attractif, permettant des expéditions à l'international.
 
         </p>
         <h2 class="text-2xl font-bold my-4">Conclusion : Pourquoi chaque PME devrait envisager de posséder un site vitrine.</h2>
@@ -76,7 +76,7 @@ new class extends Component {
             commercial contemporain.</p>
 
             <x-button label="{{'Demander un devis 😃'}}" class="btn-primary mt-5" link="/contact">
-            
+
             </x-button>
     </x-card>
 </div>

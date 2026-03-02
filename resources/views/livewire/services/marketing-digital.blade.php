@@ -14,7 +14,7 @@ new class extends Component {
     <div class="grid grid-cols-1 md:grid-cols-2 min-h-screen">
         <!-- Section gauche avec l'image -->
         <div class="flex items-center justify-center bg-black">
-            <img src="{{ asset('storage/photos/femmeOrdi.png') }}" alt="Femme sur ordinateur" class="max-w-full h-auto">
+            <img src="{{ asset('storage/photos/femmeOrdi.jpg') }}" alt="Femme sur ordinateur" class="max-w-full h-auto">
         </div>
 
         <!-- Section droite avec le texte -->
@@ -201,7 +201,7 @@ new class extends Component {
                     allouer efficacement aux différents canaux.</p>
             </div>
         </div>
-   
+
     </div>
     <div class="container mx-auto p-8">
         <h1
@@ -294,8 +294,8 @@ new class extends Component {
             <p>Réalisez des campagnes publicitaires Google Ads (SEA) ciblées pour atteindre votre public cible et
                 générer des leads qualifiés.</p>
                 <x-button label="{{'Demander un devis 😃'}}" class="btn-primary mt-5" link="/contact">
-            
+
                 </x-button>
     </div>
-    
+
 </div>
